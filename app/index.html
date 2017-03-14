@@ -13,17 +13,6 @@
     <div class="container">
         <div ng-include="'templates/page-header.html'"></div>
 
-        <!-- <div class="page-header">
-            <h1>
-                <img class="photo" ng-src="{{$ctrl.todo.userPhoto}}">
-                {{::$ctrl.todo.user}}'s To Do List
-                <span class="label label-default"
-                    ng-hide="$ctrl.incompleteCount($ctrl.todo.items) === 0"
-                    ng-class="$ctrl.warningLevel($ctrl.todo.items)">
-                    {{$ctrl.incompleteCount($ctrl.todo.items)}}
-                </span>
-            </h1>
-        </div> -->
         <div class="panel">
             <form novalidate name="newTask">
                 <div class="form-group">
